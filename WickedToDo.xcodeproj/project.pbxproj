@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7D6F9E7173B0AE500799976 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D6F9E6173B0AE500799976 /* UIKit.framework */; };
+		C7D6F9E9173B0AE500799976 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D6F9E8173B0AE500799976 /* Foundation.framework */; };
+		C7D6F9EB173B0AE500799976 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7D6F9EA173B0AE500799976 /* CoreGraphics.framework */; };
+		C7D6F9F1173B0AE500799976 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7D6F9EF173B0AE500799976 /* InfoPlist.strings */; };
+		C7D6F9F3173B0AE500799976 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D6F9F2173B0AE500799976 /* main.m */; };
+		C7D6F9F7173B0AE500799976 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D6F9F6173B0AE500799976 /* AppDelegate.m */; };
+		C7D6F9F9173B0AE500799976 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D6F9F8173B0AE500799976 /* Default.png */; };
+		C7D6F9FB173B0AE500799976 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D6F9FA173B0AE500799976 /* Default@2x.png */; };
+		C7D6F9FD173B0AE500799976 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7D6F9FC173B0AE500799976 /* Default-568h@2x.png */; };
+		C7D6FA00173B0AE500799976 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D6F9FF173B0AE500799976 /* ViewController.m */; };
+		C7D6FA03173B0AE500799976 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7D6FA01173B0AE500799976 /* ViewController.xib */; };
+		C7E9D455173B3E4300AEB788 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E9D453173B3E4300AEB788 /* EditViewController.m */; };
+		C7E9D456173B3E4300AEB788 /* EditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7E9D454173B3E4300AEB788 /* EditViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C7D6F9E3173B0AE500799976 /* WickedToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WickedToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7D6F9E6173B0AE500799976 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C7D6F9E8173B0AE500799976 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C7D6F9EA173B0AE500799976 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C7D6F9EE173B0AE500799976 /* WickedToDo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WickedToDo-Info.plist"; sourceTree = "<group>"; };
+		C7D6F9F0173B0AE500799976 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7D6F9F2173B0AE500799976 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7D6F9F4173B0AE500799976 /* WickedToDo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WickedToDo-Prefix.pch"; sourceTree = "<group>"; };
+		C7D6F9F5173B0AE500799976 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7D6F9F6173B0AE500799976 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7D6F9F8173B0AE500799976 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C7D6F9FA173B0AE500799976 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C7D6F9FC173B0AE500799976 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C7D6F9FE173B0AE500799976 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C7D6F9FF173B0AE500799976 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C7D6FA02173B0AE500799976 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C7E9D452173B3E4300AEB788 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditViewController.h; path = ../EditViewController.h; sourceTree = "<group>"; };
+		C7E9D453173B3E4300AEB788 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditViewController.m; path = ../EditViewController.m; sourceTree = "<group>"; };
+		C7E9D454173B3E4300AEB788 /* EditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EditViewController.xib; path = ../EditViewController.xib; sourceTree = "<group>"; };
+		C7E9D457173B42E800AEB788 /* EditingDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditingDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7D6F9E0173B0AE500799976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7D6F9E7173B0AE500799976 /* UIKit.framework in Frameworks */,
+				C7D6F9E9173B0AE500799976 /* Foundation.framework in Frameworks */,
+				C7D6F9EB173B0AE500799976 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7D6F9DA173B0AE500799976 = {
+			isa = PBXGroup;
+			children = (
+				C7D6F9EC173B0AE500799976 /* WickedToDo */,
+				C7D6F9E5173B0AE500799976 /* Frameworks */,
+				C7D6F9E4173B0AE500799976 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7D6F9E4173B0AE500799976 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7D6F9E3173B0AE500799976 /* WickedToDo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7D6F9E5173B0AE500799976 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7D6F9E6173B0AE500799976 /* UIKit.framework */,
+				C7D6F9E8173B0AE500799976 /* Foundation.framework */,
+				C7D6F9EA173B0AE500799976 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7D6F9EC173B0AE500799976 /* WickedToDo */ = {
+			isa = PBXGroup;
+			children = (
+				C7E9D457173B42E800AEB788 /* EditingDelegate.h */,
+				C7D6F9F5173B0AE500799976 /* AppDelegate.h */,
+				C7D6F9F6173B0AE500799976 /* AppDelegate.m */,
+				C7E9D452173B3E4300AEB788 /* EditViewController.h */,
+				C7E9D453173B3E4300AEB788 /* EditViewController.m */,
+				C7E9D454173B3E4300AEB788 /* EditViewController.xib */,
+				C7D6FA01173B0AE500799976 /* ViewController.xib */,
+				C7D6F9FE173B0AE500799976 /* ViewController.h */,
+				C7D6F9FF173B0AE500799976 /* ViewController.m */,
+				C7D6F9ED173B0AE500799976 /* Supporting Files */,
+			);
+			path = WickedToDo;
+			sourceTree = "<group>";
+		};
+		C7D6F9ED173B0AE500799976 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7D6F9EE173B0AE500799976 /* WickedToDo-Info.plist */,
+				C7D6F9EF173B0AE500799976 /* InfoPlist.strings */,
+				C7D6F9F2173B0AE500799976 /* main.m */,
+				C7D6F9F4173B0AE500799976 /* WickedToDo-Prefix.pch */,
+				C7D6F9F8173B0AE500799976 /* Default.png */,
+				C7D6F9FA173B0AE500799976 /* Default@2x.png */,
+				C7D6F9FC173B0AE500799976 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7D6F9E2173B0AE500799976 /* WickedToDo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7D6FA06173B0AE500799976 /* Build configuration list for PBXNativeTarget "WickedToDo" */;
+			buildPhases = (
+				C7D6F9DF173B0AE500799976 /* Sources */,
+				C7D6F9E0173B0AE500799976 /* Frameworks */,
+				C7D6F9E1173B0AE500799976 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WickedToDo;
+			productName = WickedToDo;
+			productReference = C7D6F9E3173B0AE500799976 /* WickedToDo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7D6F9DB173B0AE500799976 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = craigeryp;
+			};
+			buildConfigurationList = C7D6F9DE173B0AE500799976 /* Build configuration list for PBXProject "WickedToDo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C7D6F9DA173B0AE500799976;
+			productRefGroup = C7D6F9E4173B0AE500799976 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7D6F9E2173B0AE500799976 /* WickedToDo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7D6F9E1173B0AE500799976 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7D6F9F1173B0AE500799976 /* InfoPlist.strings in Resources */,
+				C7D6F9F9173B0AE500799976 /* Default.png in Resources */,
+				C7D6F9FB173B0AE500799976 /* Default@2x.png in Resources */,
+				C7D6F9FD173B0AE500799976 /* Default-568h@2x.png in Resources */,
+				C7D6FA03173B0AE500799976 /* ViewController.xib in Resources */,
+				C7E9D456173B3E4300AEB788 /* EditViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7D6F9DF173B0AE500799976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7D6F9F3173B0AE500799976 /* main.m in Sources */,
+				C7D6F9F7173B0AE500799976 /* AppDelegate.m in Sources */,
+				C7D6FA00173B0AE500799976 /* ViewController.m in Sources */,
+				C7E9D455173B3E4300AEB788 /* EditViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C7D6F9EF173B0AE500799976 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7D6F9F0173B0AE500799976 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C7D6FA01173B0AE500799976 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7D6FA02173B0AE500799976 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7D6FA04173B0AE500799976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7D6FA05173B0AE500799976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7D6FA07173B0AE500799976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WickedToDo/WickedToDo-Prefix.pch";
+				INFOPLIST_FILE = "WickedToDo/WickedToDo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C7D6FA08173B0AE500799976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WickedToDo/WickedToDo-Prefix.pch";
+				INFOPLIST_FILE = "WickedToDo/WickedToDo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7D6F9DE173B0AE500799976 /* Build configuration list for PBXProject "WickedToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7D6FA04173B0AE500799976 /* Debug */,
+				C7D6FA05173B0AE500799976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7D6FA06173B0AE500799976 /* Build configuration list for PBXNativeTarget "WickedToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7D6FA07173B0AE500799976 /* Debug */,
+				C7D6FA08173B0AE500799976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7D6F9DB173B0AE500799976 /* Project object */;
+}
